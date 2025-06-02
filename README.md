@@ -3,9 +3,6 @@
 ## Project Overview
 This project demonstrates a prototype for a real-time financial fraud detection system. It simulates an end-to-end pipeline, starting from synthetic data generation, training an anomaly detection model, processing a live stream of transactions using PySpark, applying the model for real-time predictions, and visualizing the results through a simulated live dashboard and static reports.
 
-*(Optional: Embed a GIF or a link to a short video demo of the project running, especially Sections 6 & 7)*
-*Link to Demo Video: [Your Video Link Here (e.g., YouTube, Vimeo)]*
-
 ## Key Features
 - **Synthetic Data Generation:** Custom script to generate a configurable dataset of financial transactions (~30,000 samples) with embedded fraudulent patterns and engineered time-based features (transaction hour, day of the week).
 - **Machine Learning Model:** Utilizes Scikit-learn's `IsolationForest` for anomaly detection. Includes data preprocessing steps like `StandardScaler` for numerical features and `OneHotEncoder` for categorical features.
