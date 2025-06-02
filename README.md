@@ -67,6 +67,4 @@ This project demonstrates a prototype for a real-time financial fraud detection 
 - **Model Retraining & Concept Drift:** Implement strategies for periodic model retraining and adaptation to changing fraud patterns.
 
 ## Author
-- **[Your Name]**
-- *Optional: [Link to your LinkedIn Profile]*
-- *Optional: [Link to your Portfolio Website if you have one]*
+- **Hrithvik**
