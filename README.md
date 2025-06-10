@@ -57,8 +57,6 @@ This project demonstrates a prototype for a real-time financial fraud detection 
     - **F1-Score:** ~0.49
 - The system successfully demonstrated real-time processing of transactions, application of the ML model, and dynamic updates to monitoring metrics. The inclusion of time-based features and tuning of the `contamination` parameter contributed to achieving a fraud recall of 0.57.
 
-*(Optional: Embed a screenshot of your static plot from Section 7 or the confusion matrix from Section 8)*
-
 ## Potential Improvements & Future Work
 - **Advanced Feature Engineering:** Incorporate more complex features like user historical spending patterns, transaction velocity over various time windows, or graph-based features if relationships between entities were modeled.
 - **Alternative Models:** Experiment with supervised ML models (e.g., Random Forest, XGBoost) if higher quality labels were available, or other anomaly detection techniques (e.g., Autoencoders, LOF).
